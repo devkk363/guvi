@@ -1,6 +1,7 @@
-#include<iostream>
+#include <iostream>
+using namespace std;
 
-void main(){
+int main() {
 int n;
 
 cin>>n;
@@ -11,7 +12,7 @@ else if(n>0)
 cout<<"Positive";
 else
   cout<<"Negative";
-  
-  return 1;
 
+	// your code goes here
+	return 0;
 }
