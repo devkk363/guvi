@@ -6,10 +6,12 @@ int main(){
     
     int num;
     
-    cin>> num;
+    cin>>num;
     
-    if(num%2 == 0)
-        cout<<"Even";
+    if(num<0)
+        cout<<"Invalid"<<endl;
+    else if(num%2 == 0)
+        cout<<"Even"<<endl;
     else
-        cout<<"Odd";
+        cout<<"Odd"<<endl;
 }
