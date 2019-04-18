@@ -15,9 +15,9 @@ int main(){
     }
     
     if(orgInt == revInt)
-        cout<<"Yes"<<endl;
+        cout<<"yes"<<endl;
     else
-        cout<<"No"<<endl;
+        cout<<"no"<<endl;
     
 }
 
