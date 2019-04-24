@@ -13,5 +13,5 @@ int main(){
             m = num%60;    
     }
     
-    cout<<h<<":"<<m;
+    cout<<h<<" "<<m;
 }
